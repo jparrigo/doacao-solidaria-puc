@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef, useState } from 'react';
 import { QrCode, Copy, CheckCircle2, Wallet } from 'lucide-react';
 import { toast } from "@/hooks/use-toast";
@@ -56,8 +57,8 @@ const DonationSection: React.FC = () => {
           <Wallet className="w-5 h-5 text-primary mr-2" />
           <h2 className="text-sm font-medium text-primary">Faça sua doação</h2>
         </div>
-        <h3 className="section-title">Contribua com nossa campanha</h3>
-        <p className="section-subtitle">Qualquer valor já faz uma grande diferença</p>
+        <h3 className="section-title mb-2">Contribua com nossa campanha</h3>
+        <p className="section-subtitle mb-8 text-muted-foreground">Qualquer valor já faz uma grande diferença</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           <div className="qr-code-container appear-animation flex flex-col items-center" style={{ animationDelay: '0.3s' }}>
