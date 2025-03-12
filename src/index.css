@@ -53,20 +53,15 @@
   }
 
   .section-title {
-    @apply text-3xl md:text-4xl font-semibold mb-2 opacity-0;
-    animation: fade-in-up 0.5s ease-out forwards;
-    animation-delay: 0.1s;
+    @apply text-3xl md:text-4xl font-semibold opacity-100;
   }
 
   .section-subtitle {
-    @apply text-sm md:text-base text-muted-foreground mb-8 opacity-0;
-    animation: fade-in-up 0.5s ease-out forwards;
-    animation-delay: 0.2s;
+    @apply text-sm md:text-base text-muted-foreground opacity-100;
   }
 
   .appear-animation {
-    @apply opacity-0;
-    animation: fade-in-up 0.5s ease-out forwards;
+    @apply opacity-100;
   }
 
   .qr-code-container {
@@ -90,5 +85,36 @@
   .card-hover:hover {
     transform: translateY(-5px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  }
+
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blur-in {
+    from {
+      opacity: 0;
+      filter: blur(10px);
+    }
+    to {
+      opacity: 1;
+      filter: blur(0);
+    }
   }
 }
