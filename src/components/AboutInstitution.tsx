@@ -60,7 +60,7 @@ const AboutInstitution: React.FC = () => {
           </p>
           <p className="text-muted-foreground">
             <p>Facebook:</p>
-            <a target='_blank' className='text-primary' href="https://www.facebook.com/casadeapoiogrupovida/?locale=pt_BR">https://www.facebook.com/casadeapoiogrupovida/?locale=pt_BR</a>
+            <a target='_blank' className='text-primary break-all' href="https://www.facebook.com/casadeapoiogrupovida/?locale=pt_BR">https://www.facebook.com/casadeapoiogrupovida/?locale=pt_BR</a>
             <p className='mt-6'>Endereço:</p>
             R. Dr. Cassiano Gonzaga, 729 - São Bernardo, Campinas - SP, 13030-470
           </p>
