@@ -5,7 +5,7 @@ import { toast } from "@/hooks/use-toast";
 
 const DonationSection: React.FC = () => {
   const [copied, setCopied] = useState(false);
-  const pixKey = "example@email.com"; // Replace with your actual PIX key
+  const pixKey = "pixdojorge@gmail.com"; // Replace with your actual PIX key
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(pixKey);

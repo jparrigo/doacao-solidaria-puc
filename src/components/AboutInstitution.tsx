@@ -46,16 +46,14 @@ const AboutInstitution: React.FC = () => {
         
         <div className="glass-card p-8 appear-animation" style={{ animationDelay: '0.3s' }}>
           <div className="flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-6">
-            <Building className="w-7 h-7 text-primary" />
+            <img src="./grupo-vida.jpeg" alt="Grupo Vida Logo" />
           </div>
-          <h4 className="text-xl font-semibold mb-4">Instituição de Assistência Social</h4>
+          <h4 className="text-xl font-semibold mb-4">Casa de Apoio Grupo Vida</h4>
           <p className="text-muted-foreground mb-6">
-            A instituição atende pessoas em situação de vulnerabilidade social na região de Campinas há mais de 15 anos, 
-            fornecendo alimentação, produtos de higiene, vestuário e apoio psicológico para famílias carentes.
+          Somos uma casa de apoio de retaguarda social fundada em 2001, portanto estamos a mais de 20 anos nessa luta, acolhendo pessoas que vive com HIV/AIDS no Municipio de Campinas. Trabalhamos para erradicar os preconceitos e as doenças das pessoas que sofrem abandono social e falta de tratamentos, seja por falta de recursos, ou de conhecimentos.
           </p>
           <p className="text-muted-foreground mb-6">
-            Com mais de 200 assistidos mensalmente, a instituição se mantém através de doações de pessoas físicas e 
-            jurídicas, além do trabalho voluntário de profissionais de diversas áreas.
+          Hoje somos a única casa de apoio habilitada em Parceria com a Secretaria Municipal de Saude.
           </p>
           <p className="text-muted-foreground">
             Sua doação será transformada em itens essenciais para o dia a dia dessas pessoas, contribuindo diretamente 
