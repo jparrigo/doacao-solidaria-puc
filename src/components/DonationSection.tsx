@@ -5,7 +5,7 @@ import { toast } from "@/hooks/use-toast";
 
 const DonationSection: React.FC = () => {
   const [copied, setCopied] = useState(false);
-  const pixKey = "pixdojorge@gmail.com"; // Replace with your actual PIX key
+  const pixKey = "8fd796d4-eacd-42dc-be9c-3f44d51c00f5"; // Replace with your actual PIX key
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(pixKey);
@@ -36,7 +36,7 @@ const DonationSection: React.FC = () => {
             <h4 className="text-xl font-semibold mb-4">QR Code PIX</h4>
             <div className="w-56 h-56 bg-white p-2 rounded-lg border shadow-sm mb-4">
               <img 
-                src="https://chart.googleapis.com/chart?cht=qr&chl=example@email.com&chs=280x280&choe=UTF-8&chld=L|1"
+                src="./qrcode.png"
                 alt="QR Code PIX" 
                 className="w-full h-full"
               />

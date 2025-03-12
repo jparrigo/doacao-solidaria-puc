@@ -54,9 +54,15 @@ const AboutInstitution: React.FC = () => {
           <p className="text-muted-foreground mb-6">
           Hoje somos a única casa de apoio habilitada em Parceria com a Secretaria Municipal de Saude.
           </p>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground mb-6">
             Sua doação será transformada em itens essenciais para o dia a dia dessas pessoas, contribuindo diretamente 
             para a melhoria da qualidade de vida e dignidade dos assistidos.
+          </p>
+          <p className="text-muted-foreground">
+            <p>Facebook:</p>
+            <a target='_blank' className='text-primary' href="https://www.facebook.com/casadeapoiogrupovida/?locale=pt_BR">https://www.facebook.com/casadeapoiogrupovida/?locale=pt_BR</a>
+            <p className='mt-6'>Endereço:</p>
+            R. Dr. Cassiano Gonzaga, 729 - São Bernardo, Campinas - SP, 13030-470
           </p>
         </div>
       </div>

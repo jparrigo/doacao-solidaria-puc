@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
             Saiba Mais
           </a>
         </div>
-        <Countdown targetDate='2025-03-27T19:00:00' />
+        <Countdown targetDate='2025-03-21T12:00:00' />
       </div>
     </div>
   );

@@ -34,7 +34,7 @@ const ItemsList: React.FC = () => {
     },
     {
       name: "Manutenção do lar",
-      description: "Ajuda nos custos do de manuteção do lar.",
+      description: "Ajuda nos custos de manuteção do lar.",
       icon: <div className="w-12 h-12 rounded-full flex items-center justify-center bg-red-100 text-red-600">🔨</div>
     },
     {

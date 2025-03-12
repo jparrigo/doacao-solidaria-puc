@@ -57,9 +57,9 @@ const Index: React.FC = () => {
                 Fazer Doação
               </a>
             </nav>
-            <button className="md:hidden">
+            {/* <button className="md:hidden">
               <Menu className="w-6 h-6" />
-            </button>
+            </button> */}
           </div>
         </div>
       </header>
