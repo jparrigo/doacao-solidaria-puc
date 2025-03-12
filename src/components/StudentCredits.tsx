@@ -35,7 +35,7 @@ const StudentCredits: React.FC = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-16 bg-secondary">
+    <section id="puc" ref={sectionRef} className="py-16 bg-secondary">
       <div className="section-container max-w-3xl mx-auto text-center">
         <div className="inline-flex items-center justify-center mb-6 appear-animation">
           <GraduationCap className="w-6 h-6 text-primary mr-2" />
@@ -45,8 +45,14 @@ const StudentCredits: React.FC = () => {
           Uma iniciativa dos alunos da PUC Campinas
         </h3>
         <p className="text-muted-foreground mb-10 appear-animation" style={{ animationDelay: '0.3s' }}>
-          Esta campanha solidária foi organizada por estudantes comprometidos em fazer a diferença na comunidade local. 
-          Acreditamos que pequenas ações, quando feitas em conjunto, podem transformar realidades.
+        Alunos do 7º período de Engenharia de Software, junto com a disciplina de Teologia e Sociedade, estão realizando uma campanha solidária. 
+        Acreditamos que pequenas ações, quando feitas em conjunto, podem transformar realidades.
+        </p>
+        <p className="mb-2 appear-animation" style={{ animationDelay: '0.3s' }}>
+        Alunos envolvidos: 
+        </p>
+        <p className="text-muted-foreground mb-10 appear-animation" style={{ animationDelay: '0.3s' }}>
+          Bruno Fontolan, Enrico Farina, Guilherme Jorge, Gustavo de Campos e João Paulo Arrigo
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 appear-animation" style={{ animationDelay: '0.4s' }}>

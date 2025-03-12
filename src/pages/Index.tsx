@@ -49,7 +49,7 @@ const Index: React.FC = () => {
             </div>
             <nav className="hidden md:flex items-center space-x-6">
               <a href="#sobre" className="text-sm text-foreground hover:text-primary transition-colors">Sobre</a>
-              <a href="#doar" className="text-sm text-foreground hover:text-primary transition-colors">Doar</a>
+              <a href="#puc" className="text-sm text-foreground hover:text-primary transition-colors">Iniciativa Estudantil</a>
               <a 
                 href="#doar" 
                 className="px-4 py-2 rounded-full bg-primary text-white text-sm hover:bg-primary/90 transition-colors"
@@ -68,8 +68,8 @@ const Index: React.FC = () => {
         <Hero />
         <AboutInstitution />
         <ItemsList />
-        <DonationSection />
         <StudentCredits />
+        <DonationSection />
       </main>
 
       <Footer />

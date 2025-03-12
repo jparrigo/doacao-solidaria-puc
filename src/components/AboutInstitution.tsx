@@ -43,8 +43,7 @@ const AboutInstitution: React.FC = () => {
         </div>
         <h3 className="section-title">Conheça a quem iremos ajudar</h3>
         <p className="section-subtitle">Uma instituição comprometida em fazer a diferença</p>
-        
-        <div className="glass-card p-8 appear-animation" style={{ animationDelay: '0.3s' }}>
+        <div className="glass-card p-8 appear-animation mt-8" style={{ animationDelay: '0.3s' }}>
           <div className="flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-6">
             <img src="./grupo-vida.jpeg" alt="Grupo Vida Logo" />
           </div>

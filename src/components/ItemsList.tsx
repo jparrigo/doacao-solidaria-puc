@@ -19,7 +19,7 @@ const ItemsList: React.FC = () => {
     },
     {
       name: "Produtos de higiene pessoal",
-      description: "Sabonetes, pasta de dente, escovas de dente, shampoo, papel higiênico e absorventes.",
+      description: "Sabonetes, pasta de dente, escovas de dente, shampoo e papel higiênico.",
       icon: <div className="w-12 h-12 rounded-full flex items-center justify-center bg-blue-100 text-blue-600">🧴</div>
     },
     {
@@ -33,9 +33,9 @@ const ItemsList: React.FC = () => {
       icon: <div className="w-12 h-12 rounded-full flex items-center justify-center bg-purple-100 text-purple-600">🛏️</div>
     },
     {
-      name: "Material escolar",
-      description: "Cadernos, lápis, canetas, borrachas e mochilas para crianças assistidas.",
-      icon: <div className="w-12 h-12 rounded-full flex items-center justify-center bg-red-100 text-red-600">📚</div>
+      name: "Manutenção do lar",
+      description: "Ajuda nos custos do de manuteção do lar.",
+      icon: <div className="w-12 h-12 rounded-full flex items-center justify-center bg-red-100 text-red-600">🔨</div>
     },
     {
       name: "Medicamentos",
@@ -74,7 +74,7 @@ const ItemsList: React.FC = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="section-container py-24 bg-secondary/50">
+    <section ref={sectionRef} className="section-container py-24">
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center mb-4 appear-animation">
           <ShoppingCart className="w-5 h-5 text-primary mr-2" />
