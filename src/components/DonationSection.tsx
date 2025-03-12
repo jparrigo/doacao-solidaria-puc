@@ -1,7 +1,6 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import { QrCode, Copy, CheckCircle2, Wallet } from 'lucide-react';
-import { toast } from "@/components/ui/sonner";
+import { toast } from "@/hooks/use-toast";
 
 const DonationSection: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -11,12 +10,9 @@ const DonationSection: React.FC = () => {
   const copyToClipboard = () => {
     navigator.clipboard.writeText(pixKey);
     setCopied(true);
-    toast("Chave PIX copiada!", {
+    toast({
+      title: "Chave PIX copiada!",
       description: "Cole no seu aplicativo de banco para fazer a doação.",
-      action: {
-        label: "Fechar",
-        onClick: () => {},
-      },
     });
     
     setTimeout(() => {
