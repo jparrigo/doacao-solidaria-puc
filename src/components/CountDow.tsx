@@ -30,7 +30,7 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
 
   return (
     <div className="w-fit mt-8">
-      {/* <h2 className="mb-2 text-black/40 font-semibold">Tempo Restante</h2> */}
+      <h2 className="mb-2 text-black/40 font-semibold">Doação finalizada!</h2>
       <div className="flex flex-row items-center justify-center gap-8 bg-primary/10 text-primary px-8 py-2 rounded-lg">
         <div className="flex flex-col justify-center">
           <p className="font-bold text-2xl">{timeLeft.days}</p>

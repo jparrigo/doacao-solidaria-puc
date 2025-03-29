@@ -6,6 +6,7 @@ import ItemsList from '@/components/ItemsList';
 import DonationSection from '@/components/DonationSection';
 import StudentCredits from '@/components/StudentCredits';
 import Footer from '@/components/Footer';
+import GallerySection from '@/components/GallerySection';
 
 const Index: React.FC = () => {
   // Smooth scroll for anchor links
@@ -54,7 +55,7 @@ const Index: React.FC = () => {
                 href="#doar" 
                 className="px-4 py-2 rounded-full bg-primary text-white text-sm hover:bg-primary/90 transition-colors"
               >
-                Fazer Doação
+                Galeria de fotos
               </a>
             </nav>
             {/* <button className="md:hidden">
@@ -69,7 +70,7 @@ const Index: React.FC = () => {
         <AboutInstitution />
         <ItemsList />
         <StudentCredits />
-        <DonationSection />
+        <GallerySection />
       </main>
 
       <Footer />

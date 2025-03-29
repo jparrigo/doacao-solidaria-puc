@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="#doar" className="px-8 py-3 rounded-full bg-primary text-white font-medium transition-all hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20">
-            Doar Agora
+            Galeria de fotos
           </a>
           <a href="#sobre" className="px-8 py-3 rounded-full bg-secondary text-foreground font-medium transition-all hover:bg-secondary/80">
             Saiba Mais
